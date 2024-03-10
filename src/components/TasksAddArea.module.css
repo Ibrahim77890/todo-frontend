@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.add
+{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+}
+
+.toolbar
+{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 16px;
+    color: #2564CF;
+    font-family: 'SegoeUI', Arial, sans-serif;
+}
+
+.toolbar_left
+{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.toolbar_right
+{
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-size: 16px;
+}
+
+.input_quick_external
+{
+    height: fit-content;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); 
+    display: flex;
+    flex-direction: column;
+}
+
+.task_styling
+{
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.fonts{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input_field_symbol
+{
+    width: 100%;
+    height: 52px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2564CF;
+    border-bottom: 1px solid lightgray
+}
+
+.inputF
+{
+    width: 100%;
+    height:100%;
+    flex: 1;
+    border: none;
+    font-family: Segoe,'SegoeUI',Arial,sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.inputF::placeholder
+{
+    color: #2564CF;
+    letter-spacing: 0.5px;
+}
+
+.inputF:focus
+{
+    outline: none;
+}
+
+
+.inputF::placeholder:focus
+{
+    color: #605E5C;
+}
+
+.input_field_second
+{
+    height: 40px;
+    width: 100%;
+    background-color: #FAF9F8;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    overflow: hidden;
+    color: #605E5C;
+}
+
+.input_icons
+{
+    background-color: transparent;
+    padding: 2px;
+    align-items: center;
+    height: 20px;
+    width: fit-content;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input_icons_date
+{
+    background-color: transparent;
+    padding: 2px;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input_icons:hover
+{
+    background-color: #ffffff;
+}
+
+.btn
+{
+    margin-right: 24px;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #2564CF;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: #ffffffc4;
+}
+
+.list::-webkit-scrollbar
+{
+    display: none;
+}
+
+.date_adders
+{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    gap: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.date_adders:hover
+{
+    background-color: #F3F2F1;
+}
+
+.hoveringMenu
+{
+    z-index: 10;
+    height: fit-content;
+    width: 280px;
+    position: absolute;
+    background-color: white;
+    transform:    translateY(25px) translateX(-60px);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #9f9f9f7f;
+    border-radius: 4px;
+    -webkit-transform:    translateY(25px) translateX(-60px);
+    -moz-transform:    translateY(25px) translateX(-60px);
+    -ms-transform:    translateY(25px) translateX(-60px);
+    -o-transform:    translateY(25px) translateX(-60px);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
